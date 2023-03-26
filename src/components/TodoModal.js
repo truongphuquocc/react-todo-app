@@ -169,6 +169,7 @@ function TodoModal({ modalOpen, setModalOpen }) {
           id: uuid(),
           title,
           description,
+          status,
           time: new Date().toLocaleDateString(),
         })
       );
